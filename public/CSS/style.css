@@ -1,0 +1,332 @@
+.headers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center !important;
+    box-shadow: 2px 2px 5px gray;
+    background-color: white;
+}
+
+.nav-top {
+    align-items: center !important;
+}
+
+.navb {
+    justify-content: space-around;
+    margin-left: 4rem;
+}
+
+.navb li a {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 0.25rem;
+}
+
+.hed {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+/* Location */
+
+.loc {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 100%;
+    font-size: 0.75rem;
+}
+
+/* Search  */
+
+.search {
+    border: 1px solid black;
+    outline: none !important;
+}
+
+.search:focus {
+    border: 1px solid black !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.horizontal_view_mind {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    flex-wrap: nowrap !important;
+    overflow: auto;
+}
+
+
+.horizontal_view_mind a {
+    width: 200px;
+    height: 200px;
+}
+
+.horizontal_view_mind::-webkit-scrollbar {
+    display: none;
+}
+
+.view_img_mind {
+    width: 100%;
+    height: 100%;
+}
+
+.horizontal_view_top {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+    flex-wrap: nowrap !important;
+    overflow: auto;
+    padding: 1rem;
+}
+
+.horizontal_view_top a {
+    width: 250px;
+    height: 321px;
+    box-shadow: 5px 5px 5px gray, -5px -5px 5px gray;
+    padding: 0 !important;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(231, 220, 220);
+}
+
+.horizontal_view_top::-webkit-scrollbar {
+    display: none;
+}
+
+.view_top {
+    position: relative;
+    width: 100%;
+    height: 55%;
+    background: linear-gradient(rgb(105, 102, 102), black);
+    border-radius: 20px;
+}
+
+.view_img_top {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    z-index: -1;
+    opacity: 0.9;
+    filter: contrast(99%) brightness(80%);
+}
+
+.view_top h4 {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 100%;
+    height: 60%;
+    color: white;
+    font-size: 20px;
+}
+
+.view_top_para {
+    height: 30px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.horizontal_view_online {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.horizontal_view_online a {
+    width: 250px;
+    height: 321px;
+    box-shadow: 5px 5px 5px gray, -5px -5px 5px gray;
+    padding: 0 !important;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(231, 220, 220);
+}
+
+.horizontal_view_online::-webkit-scrollbar {
+    display: none;
+}
+
+.view_online {
+    position: relative;
+    width: 100%;
+    height: 55%;
+    background: linear-gradient(rgb(105, 102, 102), black);
+    border-radius: 20px;
+}
+
+.view_img_online {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    z-index: -1;
+    opacity: 0.9;
+    filter: contrast(99%) brightness(80%);
+}
+
+.view_online h4 {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 100%;
+    height: 60%;
+    color: white;
+    font-size: 20px;
+}
+
+.view_online_para {
+    height: 30px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+/* For Button Start */
+
+.but {
+    background-color: #fc8019 !important;
+    outline: none;
+    border: none;
+    border-width: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 1.25rem;
+}
+
+/* For Button End */
+
+
+/* For Error, No Result and Online Page Start */
+
+.error,
+.noresult,
+.online {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+/* For Error, No Result and Online Page End */
+
+.top_restaurantsInfo {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    border: 1px solid rgb(85, 83, 83);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 8px 16px 0px;
+}
+
+.top_retaurantsInfo_details {
+    padding: 2rem;
+    width: 70%;
+    height: 100%;
+}
+
+.top_retaurantsInfo_details p{
+    font-size: 1rem;
+}
+
+.top_retaurantsInfo_details .deliverytime{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.top_retaurantsInfo_details .deliverytime img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.top_retaurantsInfo_details .deliverytime p{
+    font-size: 1rem;
+}
+
+.top_retaurantsInfo_img {
+    width: 30%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.top_retaurantsInfo_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+/* For Empty Card */
+
+.gray {
+    background-color: gray;
+}
+
+/* Shimmer Start */
+
+.shimmer_con {
+    width: 100%;
+    height: 40vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #0e1a3f;
+}
+
+.shimmer_box {
+    width: 2rem;
+    height: 2rem;
+    border-top: 5px solid #fc8019;
+    border-radius: 50%;
+    animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        /* -webkit-transform: rotate(360deg);  */
+        transform: rotate(360deg);
+    }
+}
+
+.shimmer_img {
+    display: flex;
+    gap: 2rem;
+}
+
+.shimmer_img span {
+    color: white;
+    font-size: 3rem;
+}
+
+/* Shimmer End */
